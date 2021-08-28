@@ -1,5 +1,11 @@
 .banner {
-  background: #86148e;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#bd1c82),
+    to(#86148e)
+  );
 
   .container {
     height: 75vh;
