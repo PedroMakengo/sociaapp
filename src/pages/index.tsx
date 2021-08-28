@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Banner } from "./components/Banner";
+import { Team } from "./components/Team";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <title>Sócia App</title>
       </Head>
       <Banner />
+      <Team />
     </>
   );
 }
