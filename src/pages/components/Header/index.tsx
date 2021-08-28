@@ -1,7 +1,7 @@
 export function Header() {
   return (
     <header>
-      <h1>Olá Sóciaapp</h1>
+      <h1>Header</h1>
     </header>
   );
 }
