@@ -12,7 +12,6 @@ export function Header() {
           <a href="#">Sobre Nós</a>
           <a href="#">Testemunhos</a>
           <a href="#">Contactos</a>
-
           <a href="#">Baixar agora</a>
         </nav>
       </div>

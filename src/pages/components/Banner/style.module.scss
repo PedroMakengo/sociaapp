@@ -1,0 +1,32 @@
+.banner {
+  background: #86148e;
+
+  .container {
+    height: 75vh;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    .describe {
+      float: right;
+      align-items: center;
+
+      width: 55%;
+      color: #fff;
+
+      h1 {
+        text-transform: uppercase;
+        font-size: 5rem;
+        line-height: 1rem;
+      }
+
+      p {
+        font-size: 2rem;
+        font-weight: 200;
+      }
+    }
+  }
+}
