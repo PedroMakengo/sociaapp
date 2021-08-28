@@ -1,5 +1,8 @@
 import Head from "next/head";
 import { Banner } from "./components/Banner";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import { Offer } from "./components/Offer";
 import { Team } from "./components/Team";
 import { Testimonies } from "./components/Testimonies";
 
@@ -15,6 +18,9 @@ export default function Home() {
       <Banner />
       <Team />
       <Testimonies />
+      <Offer />
+      <Contact />
+      <Footer />
     </>
   );
 }

@@ -33,6 +33,8 @@
         border-radius: 50px;
         transition: filter 0.3s;
 
+        font-weight: 400;
+
         &:hover {
           filter: brightness(1.5);
         }
