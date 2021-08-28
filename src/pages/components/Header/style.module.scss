@@ -1,0 +1,46 @@
+.header {
+  background: #fff;
+  height: 80vh;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 10%;
+    }
+
+    nav a {
+      padding: 0 0.5rem;
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: #86148e;
+
+      & + a {
+        margin-left: 2rem;
+      }
+
+      &:last-child {
+        background: #86148e;
+        color: #fff;
+        padding: 0.5rem 1.5rem;
+
+        border-radius: 50px;
+        transition: filter 0.3s;
+
+        &:hover {
+          filter: brightness(1.5);
+        }
+      }
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
