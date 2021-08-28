@@ -1,0 +1,15 @@
+.testimonies {
+  height: 100vh;
+  background: #86148e;
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+
+    h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}
