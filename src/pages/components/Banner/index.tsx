@@ -11,6 +11,7 @@ export function Banner() {
             de artigos.
           </p>
         </div>
+        <img src="../../images/mao2.png" alt="" />
       </div>
     </div>
   );

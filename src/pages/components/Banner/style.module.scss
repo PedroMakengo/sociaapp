@@ -6,7 +6,6 @@
     from(#bd1c82),
     to(#86148e)
   );
-
   .container {
     height: 90vh;
     max-width: 1120px;
@@ -33,6 +32,10 @@
         font-size: 2rem;
         font-weight: 200;
       }
+    }
+
+    img {
+      width: 41%;
     }
   }
 }
