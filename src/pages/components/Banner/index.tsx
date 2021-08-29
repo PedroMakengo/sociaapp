@@ -10,6 +10,7 @@ export function Banner() {
             É uma plataforma que permite aos utilizadores partilharem a compra
             de artigos.
           </p>
+          <button>Ver mais</button>
         </div>
         <img src="../../images/mao2.png" alt="" />
       </div>

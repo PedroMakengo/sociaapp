@@ -1,5 +1,6 @@
 .footer {
-  height: 50vh;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   background: #fff;
 
   .container {
@@ -7,10 +8,42 @@
     margin: 0 auto;
     display: flex;
 
-    h1 {
-      font-size: 3rem;
-      text-transform: uppercase;
-      color: #86148e;
+    .itemFooter {
+      width: 50%;
+      height: 11rem;
+      padding-top: 2rem;
+
+      h2 {
+        font-weight: 300;
+      }
+
+      nav {
+        a {
+          display: block;
+          width: 100px;
+
+          & + a {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .contentFooter {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      & + a {
+        margin-left: 1rem;
+      }
     }
   }
 }
