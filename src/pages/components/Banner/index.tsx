@@ -1,4 +1,5 @@
 import { FaAppStore, FaGooglePlay } from "react-icons/fa";
+import { Button } from "../Button";
 
 import style from "./style.module.scss";
 
@@ -13,18 +14,8 @@ export function Banner() {
             de artigos.
           </p>
           <div className={style.buttons}>
-            <button>
-              <span>
-                <FaAppStore />
-              </span>
-              Play Store
-            </button>
-            <button>
-              <span>
-                <FaGooglePlay />
-              </span>
-              App Store
-            </button>
+            <Button icon={<FaAppStore />} title="Play Store" />
+            <Button icon={<FaGooglePlay />} title="Google Play" />
           </div>
         </div>
         <img src="../../images/mao2.png" alt="" />
