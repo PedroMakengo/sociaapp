@@ -1,3 +1,5 @@
+import { FaAppStore, FaGooglePlay } from "react-icons/fa";
+
 import style from "./style.module.scss";
 
 export function Banner() {
@@ -10,7 +12,20 @@ export function Banner() {
             É uma plataforma que permite aos utilizadores partilharem a compra
             de artigos.
           </p>
-          <button>Ver mais</button>
+          <div className={style.buttons}>
+            <button>
+              <span>
+                <FaAppStore />
+              </span>
+              Play Store
+            </button>
+            <button>
+              <span>
+                <FaGooglePlay />
+              </span>
+              App Store
+            </button>
+          </div>
         </div>
         <img src="../../images/mao2.png" alt="" />
       </div>

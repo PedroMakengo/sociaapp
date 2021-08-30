@@ -32,23 +32,40 @@
         font-size: 2rem;
         font-weight: 200;
       }
+      .buttons {
+        display: flex;
+        button {
+          height: 3rem;
+          width: 210px;
 
-      button {
-        height: 3rem;
-        width: 210px;
+          cursor: pointer;
+          background: #721379;
 
-        cursor: pointer;
-        background: #721379;
+          border: 0;
+          font-weight: bold;
+          font-size: 1rem;
 
-        border: 0;
-        font-weight: bold;
-        font-size: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
 
-        color: #fff;
-        transition: filter 0.2s;
+          color: #fff;
+          transition: filter 0.2s;
 
-        &:hover {
-          filter: brightness(1.6);
+          & + button {
+            margin-left: 1rem;
+          }
+
+          &:hover {
+            filter: brightness(1.6);
+          }
+
+          span {
+            svg {
+              margin-right: 1rem;
+              // padding-top: 0.4rem;
+            }
+          }
         }
       }
     }
