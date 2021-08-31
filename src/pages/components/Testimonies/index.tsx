@@ -1,4 +1,4 @@
-import { FaStore } from "react-icons/fa";
+import { FaStar, FaStarHalf } from "react-icons/fa";
 import style from "./style.module.scss";
 
 export function Testimonies() {
@@ -15,8 +15,35 @@ export function Testimonies() {
                 <div className={style.avatar}>
                   <h3>Augusto Firmino</h3>
                   <span>
-                    <FaStore />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStarHalf />
                   </span>
+                  <p>
+                    A sócia é uma ótima escolha para quem pretende fazer a
+                    compra de produto a retalho
+                  </p>
+                  <small>07/07/2021</small>
+                </div>
+              </div>
+            </div>
+            <div className={style.item}>
+              <img src="../../../images/makengo.jpg" alt="Augusto Firmino" />
+              <div className={style.describe}>
+                <div className={style.avatar}>
+                  <h3>Pedro Makengo</h3>
+                  <span>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStarHalf />
+                  </span>
+                  <p>
+                    A sócia é uma ótima escolha para quem pretende fazer a
+                    compra de produto a retalho
+                  </p>
+                  <small>07/07/2021</small>
                 </div>
               </div>
             </div>
