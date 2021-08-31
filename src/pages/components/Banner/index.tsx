@@ -1,4 +1,4 @@
-import { FaAppStore, FaGooglePlay } from "react-icons/fa";
+import { FaAppStore, FaGooglePlay, FaUserNinja } from "react-icons/fa";
 import { Button } from "../Button";
 import { ItemRecursos } from "./item";
 
@@ -25,10 +25,30 @@ export function Banner() {
       </div>
       <div className={style.recursos}>
         <div className={style.content}>
-          <ItemRecursos className={style.item} />
-          <ItemRecursos className={style.item} />
-          <ItemRecursos className={style.item} />
-          <ItemRecursos className={style.item} />
+          <ItemRecursos
+            className={style.item}
+            title="Faça sócia"
+            paragraph="Efetuar a sócia de produto com várias pessoas"
+            icon={<FaUserNinja />}
+          />
+          <ItemRecursos
+            className={style.item}
+            title="Faça sócia"
+            paragraph="Efetuar a sócia de produto com várias pessoas"
+            icon={<FaUserNinja />}
+          />
+          <ItemRecursos
+            className={style.item}
+            title="Faça sócia"
+            paragraph="Efetuar a sócia de produto com várias pessoas"
+            icon={<FaUserNinja />}
+          />
+          <ItemRecursos
+            className={style.item}
+            title="Faça sócia"
+            paragraph="Efetuar a sócia de produto com várias pessoas"
+            icon={<FaUserNinja />}
+          />
         </div>
       </div>
     </>

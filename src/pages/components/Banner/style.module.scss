@@ -96,7 +96,28 @@
 
       h1 {
         font-size: 1rem;
-        font-weight: 300;
+        font-weight: 400;
+      }
+
+      span {
+        font-weight: 200;
+        margin-bottom: 1rem;
+      }
+
+      > div {
+        display: absolute;
+        background: #811d88;
+        height: 30px;
+        width: 30px;
+
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 50px;
+
+        margin-top: 0.2rem;
       }
 
       & + .item {

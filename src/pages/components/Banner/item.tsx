@@ -1,8 +1,9 @@
 export function ItemRecursos(props) {
   return (
     <div className={props.className}>
-      <h1>Recursos</h1>
-      <p>Efetuar sócia com várias pessoas</p>
+      <div>{props.icon}</div>
+      <h1>{props.title}</h1>
+      <span>{props.paragraph}</span>
     </div>
   );
 }
