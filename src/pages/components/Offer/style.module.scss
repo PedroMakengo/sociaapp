@@ -21,7 +21,7 @@
       width: 45%;
 
       p {
-        font-size: 1.2rem;
+        line-height: 2rem;
       }
 
       button {
@@ -35,6 +35,11 @@
 
         border-radius: 0.25rem;
       }
+    }
+
+    .agent {
+      background-size: 100%;
+      background-image: url(../../../../public/images/1.svg);
     }
   }
 }

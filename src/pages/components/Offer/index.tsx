@@ -14,7 +14,7 @@ export function Offer() {
           </p>
           <Button title="Contactar agora" />
         </div>
-        <div></div>
+        <div className={style.agent}></div>
       </div>
     </div>
   );
