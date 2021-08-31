@@ -75,3 +75,33 @@
     }
   }
 }
+
+.recursos {
+  background: #721379;
+  padding: 3rem 0;
+
+  .content {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+
+    .item {
+      background: #641669;
+      width: 50%;
+      color: #fff;
+
+      padding: 1rem;
+      border-radius: 0.2rem;
+
+      h1 {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      & + .item {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
