@@ -1,7 +1,11 @@
 .contacts {
   height: 100vh;
-  background: #86148e;
-
+  background: url(../../../../public/images/3.svg), #86148e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: 16rem;
+  // background-position-y: 0rem;
+  background-size: 100%;
   .container {
     max-width: 1120px;
     margin: 0 auto;

@@ -1,6 +1,10 @@
 .testimonies {
   height: 100vh;
-  background: #86148e;
+  background: url(../../../../public/images/2.svg), #86148e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: -10rem;
+
   .container {
     max-width: 1120px;
     margin: 0 auto;

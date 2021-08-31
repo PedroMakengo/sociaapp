@@ -9,6 +9,7 @@ export function Header() {
           <a href="#" className={style.active}>
             Home
           </a>
+          <a href="#">Recursos</a>
           <a href="#">Sobre Nós</a>
           <a href="#">Testemunhos</a>
           <a href="#">Contactos</a>
