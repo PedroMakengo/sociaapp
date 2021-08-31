@@ -7,10 +7,34 @@
     margin: 0 auto;
     display: flex;
 
+    justify-content: space-between;
+
     h1 {
       font-size: 3rem;
       text-transform: uppercase;
       color: #86148e;
+
+      padding-top: 2rem;
+    }
+
+    div {
+      width: 45%;
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      button {
+        background: #86148e;
+        border: 0;
+        width: 150px;
+        height: 2.5rem;
+
+        font-weight: bold;
+        color: #fff;
+
+        border-radius: 0.25rem;
+      }
     }
   }
 }
