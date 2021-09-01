@@ -2,15 +2,21 @@ interface PropsItemFooter {
   className: string;
   title: string;
   isParagraph?: boolean;
+  paragraph?: string;
 }
 
-export function ItemFooter({ className, title, isParagraph }: PropsItemFooter) {
+export function ItemFooter({
+  className,
+  title,
+  isParagraph,
+  paragraph,
+}: PropsItemFooter) {
   return (
     <div className={className}>
       <h2>{title}</h2>
       {isParagraph == true ? (
         <div>
-          <p>Olá Mundo</p>
+          <p>{paragraph}</p>
         </div>
       ) : (
         <nav>

@@ -5,15 +5,23 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 
-import { ItemFooter } from "../ItemFooter";
+import { ItemFooter } from "./ItemFooter";
 import style from "./style.module.scss";
 
 export function Footer() {
   return (
     <footer className={style.footer}>
       <div className={style.container}>
+        <ItemFooter
+          className={style.itemFooter}
+          title="Sobre"
+          isParagraph={true}
+          paragraph="É uma plataforma que permite aos utilizadores partilharem
+           a
+           compra de artigos.
+          "
+        />
         <ItemFooter className={style.itemFooter} title="Acerca" />
-        <ItemFooter className={style.itemFooter} title="Sobre" />
         <ItemFooter
           className={style.itemFooter}
           title="Baixar agora"
@@ -21,7 +29,7 @@ export function Footer() {
         />
         <ItemFooter
           className={style.itemFooter}
-          title="Newsletter"
+          title="Atendimento"
           isParagraph={true}
         />
       </div>
