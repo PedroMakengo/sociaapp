@@ -42,7 +42,7 @@ export function Footer() {
             Inokri 2021
           </a>
         </span>
-        <div className="redes">
+        <div className={style.redes}>
           <a href="#">
             <FaFacebookSquare />
           </a>

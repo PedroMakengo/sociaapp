@@ -79,6 +79,41 @@
 
 @media (max-width: 375px) {
   .footer {
-    display: none;
+    height: auto;
+
+    .container {
+      max-width: 340px;
+      margin: 0 auto;
+
+      display: flex;
+      flex-direction: column;
+
+      .itemFooter {
+        height: auto;
+
+        h2 {
+          font-weight: bold;
+        }
+
+        & + .itemFooter {
+          margin: 0;
+        }
+      }
+    }
+
+    .contentFooter {
+      max-width: 340px;
+
+      display: flex;
+      flex-direction: column;
+
+      .redes {
+        margin-top: 1rem;
+
+        svg {
+          font-size: 1.4rem;
+        }
+      }
+    }
   }
 }
