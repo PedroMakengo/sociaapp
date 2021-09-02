@@ -1,14 +1,11 @@
-import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import style from "./style.module.scss";
 
 export function Header() {
-  const [menu, setMenu] = useState(false);
-
+  // Menu responsivo
   function checkedMenu() {
     const responsivo = document.querySelector("#responsive");
     responsivo.classList.toggle(`${style.active}`);
-    console.log(responsivo);
   }
 
   return (

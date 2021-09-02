@@ -49,6 +49,22 @@
 
 @media (max-width: 375px) {
   .team {
-    display: none;
+    height: 100vh;
+    background-position-x: 5rem;
+    background-position-y: 35rem;
+    background-size: 100%;
+
+    .container {
+      max-width: 340px;
+      height: 100%;
+
+      .teamdescribe {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
   }
 }
