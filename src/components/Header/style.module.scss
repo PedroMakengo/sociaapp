@@ -54,14 +54,10 @@
   .header {
     padding: 0;
     .container {
-      width: 100%;
+      max-width: 340px;
+      margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-
-      img,
-      button {
-        margin: 1rem;
-      }
 
       button {
         display: block;
@@ -73,7 +69,6 @@
         height: 2rem;
 
         background: #86148e;
-
         color: #fff;
       }
 
