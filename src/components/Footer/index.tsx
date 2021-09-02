@@ -37,7 +37,10 @@ export function Footer() {
       </div>
       <div className={style.contentFooter}>
         <span>
-          ©Todos direitos reservado <a href="#">Inokri 2021</a>
+          ©Todos direitos reservado{" "}
+          <a href="https://www.inokri.com" className={style.ref}>
+            Inokri 2021
+          </a>
         </span>
         <div className="redes">
           <a href="#">
