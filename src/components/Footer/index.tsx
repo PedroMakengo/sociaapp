@@ -1,10 +1,3 @@
-import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaInstagramSquare,
-  FaTwitterSquare,
-} from "react-icons/fa";
-
 import { ItemFooter } from "./ItemFooter";
 import style from "./style.module.scss";
 
@@ -39,20 +32,6 @@ export function Footer() {
         <span>
           ©Todos direitos reservado <a href="#">Inokri 2021</a>
         </span>
-        <div className="redes">
-          <a href="#">
-            <FaFacebookSquare />
-          </a>
-          <a href="#">
-            <FaLinkedin />
-          </a>
-          <a href="#">
-            <FaInstagramSquare />
-          </a>
-          <a href="#">
-            <FaTwitterSquare />
-          </a>
-        </div>
       </div>
     </footer>
   );

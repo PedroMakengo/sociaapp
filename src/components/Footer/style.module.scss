@@ -1,6 +1,6 @@
 .footer {
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   background: #fff;
 
   .container {
@@ -53,9 +53,12 @@
 
     margin-top: 2rem;
 
+    border-top: 4px solid #721379;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
+
+    padding-top: 2rem;
 
     a {
       & + a {
