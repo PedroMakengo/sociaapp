@@ -73,6 +73,38 @@
 
 @media (max-width: 375px) {
   .testimonies {
-    display: none;
+    height: 100vh;
+    background-size: 0%;
+    background-repeat: no-repeat;
+
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    .container {
+      max-width: 350px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .slider {
+        width: 100%;
+
+        h1 {
+          font-size: 2rem;
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+
+          .item {
+            width: 100%;
+
+            & + .item {
+              margin: 4rem 0;
+            }
+          }
+        }
+      }
+    }
   }
 }
