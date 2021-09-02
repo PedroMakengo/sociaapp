@@ -1,8 +1,9 @@
 .contacts {
   height: 100vh;
-  background: #86148e;
+  background: url(../../../public/images/1.svg), #86148e;
   background-position: center;
   background-repeat: no-repeat;
+  background-position-x: 40rem;
 
   .container {
     max-width: 1120px;
@@ -21,12 +22,21 @@
       border: 0;
       width: 500px;
       height: 350px;
+      border-radius: 0.25rem;
     }
 
     .contact {
       margin-left: 2rem;
       width: 500px;
       background: #811d88;
+    }
+
+    .contactSocial {
+      background: #721379;
+      height: 3rem;
+      margin-bottom: 1rem;
+
+      border-radius: 0.25rem;
     }
   }
 }
