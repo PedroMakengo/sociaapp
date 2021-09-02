@@ -37,8 +37,18 @@
       margin-bottom: 1rem;
 
       border-radius: 0.25rem;
-
       display: flex;
+      justify-content: center;
+
+      .redes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        svg {
+          font-size: 2rem;
+        }
+      }
     }
   }
 }
