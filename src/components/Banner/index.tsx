@@ -1,6 +1,13 @@
-import { FaAppStore, FaGooglePlay, FaUserNinja } from "react-icons/fa";
+import {
+  FaAppStore,
+  FaGooglePlay,
+  FaUserNinja,
+  FaAccessibleIcon,
+  FaUsers,
+  FaPhone,
+} from "react-icons/fa";
 import { Button } from "../Button";
-import { ItemRecursos } from "./item";
+import { ItemRecursos } from "./ItemRecursos/item";
 
 import style from "./style.module.scss";
 
@@ -33,21 +40,21 @@ export function Banner() {
           />
           <ItemRecursos
             className={style.item}
-            title="Faça sócia"
+            title="Entrega grátis"
             paragraph="Efetuar a sócia de produto com várias pessoas"
-            icon={<FaUserNinja />}
+            icon={<FaAccessibleIcon />}
           />
           <ItemRecursos
             className={style.item}
-            title="Faça sócia"
-            paragraph="Efetuar a sócia de produto com várias pessoas"
-            icon={<FaUserNinja />}
+            title="Asseguramos"
+            paragraph="Buscamos novos fornecedores constantemente"
+            icon={<FaUsers />}
           />
           <ItemRecursos
             className={style.item}
-            title="Faça sócia"
-            paragraph="Efetuar a sócia de produto com várias pessoas"
-            icon={<FaUserNinja />}
+            title="Disponibilidade"
+            paragraph="Estamos disponível para lhe atender 24h/24h"
+            icon={<FaPhone />}
           />
         </div>
       </div>
