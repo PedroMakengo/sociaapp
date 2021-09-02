@@ -126,3 +126,10 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .banner,
+  .recursos {
+    display: none;
+  }
+}

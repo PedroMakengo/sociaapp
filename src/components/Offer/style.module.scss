@@ -43,3 +43,9 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .bannerOferta {
+    display: none;
+  }
+}

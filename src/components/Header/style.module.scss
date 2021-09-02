@@ -1,6 +1,5 @@
 .header {
   background: #fff;
-  // border-bottom: 2px solid #86148e;
 
   .container {
     max-width: 1120px;
@@ -44,5 +43,11 @@
         margin-right: 0.5rem;
       }
     }
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    background: red;
   }
 }

@@ -46,3 +46,9 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .team {
+    display: none;
+  }
+}
