@@ -55,6 +55,27 @@
 
 @media (max-width: 375px) {
   .contacts {
-    display: none;
+    height: 50vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .container {
+      max-width: 340px;
+      height: 100%;
+      margin: 0 auto;
+
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .mapa {
+        width: 100%;
+        height: 200px;
+        margin-top: 2rem;
+      }
+    }
   }
 }

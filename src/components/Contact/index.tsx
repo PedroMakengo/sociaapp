@@ -1,9 +1,3 @@
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-  FaTwitterSquare,
-} from "react-icons/fa";
 import style from "./style.module.scss";
 
 export function Contact() {
