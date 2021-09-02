@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 
 export function Team() {
   return (
-    <section className={style.team}>
+    <section className={style.team} id="sobre">
       <div className={style.container}>
         <div className={style.teamdescribe}>
           <h1>Nossa Equipa</h1>

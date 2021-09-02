@@ -6,13 +6,27 @@
 
   .container {
     max-width: 1120px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 
     h1 {
       font-size: 3rem;
       text-transform: uppercase;
       color: #fff;
+    }
+
+    .mapa {
+      border: 0;
+      width: 500px;
+      height: 350px;
+    }
+
+    .contact {
+      margin-left: 2rem;
+      width: 500px;
+      background: #811d88;
     }
   }
 }

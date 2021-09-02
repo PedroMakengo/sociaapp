@@ -31,6 +31,8 @@ export function Footer() {
           className={style.itemFooter}
           title="Atendimento"
           isParagraph={true}
+          paragraph="Precisas entrar em contacto com o nosso call center ? ligue 
+          para estes terminais 921 538 972."
         />
       </div>
       <div className={style.contentFooter}>

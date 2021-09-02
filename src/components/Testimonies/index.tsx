@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 
 export function Testimonies() {
   return (
-    <section className={style.testimonies}>
+    <section className={style.testimonies} id="testemunhos">
       <div className={style.container}>
         <div></div>
         <div className={style.slider}>
